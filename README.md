@@ -211,7 +211,7 @@ response =
     parameters: {
       model: "GigaChat-Pro",
       messages: messages,  # Defined above because we'll use it again
-      tools: [
+      functions: [
         {
           type: "function",
           function: {
